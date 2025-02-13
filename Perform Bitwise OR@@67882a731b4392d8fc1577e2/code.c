@@ -2,11 +2,7 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    if(a|b){
-        printf("True");
-    }
-    else{
-        printf("False");
-    }
+    int result = a|b;
+    printf("%d",result);
     return 0;
 }
