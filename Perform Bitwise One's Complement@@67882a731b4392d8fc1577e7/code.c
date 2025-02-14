@@ -2,7 +2,7 @@
 int main(){
     int a;
     scanf("%d",&a);
-    int result = a+1's;
+    int result = ~num;
     printf("%d",result);
     return 0;
 }
