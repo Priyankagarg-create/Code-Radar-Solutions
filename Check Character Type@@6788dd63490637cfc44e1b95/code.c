@@ -2,7 +2,7 @@
 int main(){
     char x;
     scanf("%c",&x);
-    if(x>='A' && x<='Z' || x>='a' && x<='z'){
+    if(x>='B' && x<='Z' || x>='b' && x<='z'){
         printf("Consonant");
     }
     else if(x=='A' || x=='E' || x=='I' || x=='O' || x=='U' ||
