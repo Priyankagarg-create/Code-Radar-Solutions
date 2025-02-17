@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    Character x;
+    char x;
     scanf("%c",&x);
     if(x>='A' && x<='Z' || x>='a' && x<='z'){
         printf("%c",Consonant);
