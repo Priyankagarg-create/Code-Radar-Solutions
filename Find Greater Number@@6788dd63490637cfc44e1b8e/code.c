@@ -9,7 +9,7 @@ int main(){
         printf("%d",y);
     }
     else{
-        printf("x or y");
+        printf("%d",x);
     }
     return 0;
 }
