@@ -9,7 +9,7 @@ int main(){
         printf("%d",y);
     }
     else{
-        printf("Both numbers are equal");
+        printf("x || y");
     }
     return 0;
 }
