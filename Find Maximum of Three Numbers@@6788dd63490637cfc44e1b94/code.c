@@ -3,13 +3,13 @@ int main(){
     int x,y,z;
     scanf("%d%d%d",&x,&y,&z);
     if(x>z && x>y){
-        printf(x);
+        printf("%d",x);
     }
     else if(y>x && y>z){
-        printf(y);
+        printf("%d",y);
     }
     else{
-        printf(z);
+        printf("%d",z);
     }
     return 0;
 }
