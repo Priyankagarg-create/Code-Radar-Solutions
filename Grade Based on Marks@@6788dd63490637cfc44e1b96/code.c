@@ -15,7 +15,7 @@ int main(){
         printf("D");
     }
     esle{
-        printf("F")
+        printf("F");
     }
     return 0;
 }
