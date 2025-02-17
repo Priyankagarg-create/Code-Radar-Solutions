@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int x;
-    scanf("%d",&x);
+    Character x;
+    scanf("%c",&x);
     if(x>='A' && x<='Z' || x>='a' && x<='z'){
         printf("Consonant");
     }
