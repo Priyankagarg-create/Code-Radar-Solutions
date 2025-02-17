@@ -2,14 +2,14 @@
 int main(){
     int x,y,z;
     scanf("%d%d%d",&x,&y,&z);
-    if(x>y>z && x>z>y){
-        printf('x');
+    if(x>z && x>y){
+        printf(x);
     }
-    else if(y>x>z && y>z>x){
-        printf('y');
+    else if(y>x && y>z){
+        printf(y);
     }
     else{
-        printf('z');
+        printf(z);
     }
     return 0;
 }
