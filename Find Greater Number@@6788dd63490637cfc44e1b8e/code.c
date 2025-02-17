@@ -5,8 +5,11 @@ int main(){
     if(x>y){
         printf("x");
     }
-    else{
+    else if(y>x){
         printf("y");
+    }
+    else{
+        printf("Both numbers are equal");
     }
     return 0;
 }
