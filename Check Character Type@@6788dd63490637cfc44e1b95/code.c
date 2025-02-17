@@ -13,7 +13,7 @@ int main(){
         printf("%c",Digit);
     }
     else{
-        printf("Special Character");
+        printf("%c",x);
     }
     return 0;
 }
