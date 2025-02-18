@@ -2,8 +2,9 @@
 int main(){
     int x,y;
     char operator;
-    scanf("%d%d",&x,&y);
+    scanf("%d",&x);
     scanf("%c",operator);
+    scanf("%d",&y);
     switch(operator){
     case '+':printf("%d%d%c",&x,&y,operator, xy+);
     break;
