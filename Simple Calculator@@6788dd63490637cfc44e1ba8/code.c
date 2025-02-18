@@ -5,13 +5,13 @@ int main(){
     scanf("%d%d",&x,&y);
     scanf("%c",operator);
     switch(operator){
-    case '+':printf("%d%c%d",&x,&y,operator, x+y);
+    case '+':printf("%d%d%c",&x,&y,operator, xy+);
     break;
-    case '-':printf("%d%c%d",&x,&y,operator, x-y);
+    case '-':printf("%d%d%c",&x,&y,operator, xy-);
     break;
-    case '*':printf("%d%c%d",&x,&y,operator, x*y);
+    case '*':printf("%d%d%c",&x,&y,operator, xy*);
     break;
-    case '/':printf("%d%c%d",&x,&y,operator, x/y);
+    case '/':printf("%d%d%c",&x,&y,operator, xy/);
     break;
     default:printf("Invalid");
     return 0;
