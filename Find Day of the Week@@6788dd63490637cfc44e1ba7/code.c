@@ -2,19 +2,19 @@
 int main(){
     int x;
     scanf("%d",&x);
-    case 1:printf("Monday");
+    case 1:printf("Monday\n");
     break;
-    case 2:printf("Tuesday");
+    case 2:printf("Tuesday\n");
     break;
-    case 3:printf("Wednesday");
+    case 3:printf("Wednesday\n");
     break;
-    case 4:printf("Thursday");
+    case 4:printf("Thursday\n");
     break;
-    case 5:printf("Friday");
+    case 5:printf("Friday\n");
     break;
-    case 6:printf("Saturday");
+    case 6:printf("Saturday\n");
     break;
-    case 7:printf("Sunday");
+    case 7:printf("Sunday\n");
     break;
     default:printf("Invalid");
     return 0;
