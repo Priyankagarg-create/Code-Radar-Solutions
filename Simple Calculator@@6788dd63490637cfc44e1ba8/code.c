@@ -18,7 +18,7 @@ int main(){
             } else {
                 printf("Error! Division by zero.\n");
             }
-            break;
+    break;
     default:printf("Invalid");
     return 0;
 }
