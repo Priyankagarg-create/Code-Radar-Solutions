@@ -2,6 +2,6 @@
 int main(){
     int x;
     scanf("%d",&x);
-    printf("%d\n",(x>=18 && citizen==1)? 1:0);
+    printf("%d\n", (x>=18 && citizen==1)? 1:0);
     return 0;
 }
