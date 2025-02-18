@@ -13,7 +13,12 @@ int main(){
     case '*':printf("%d%d%c = %d",x,y,operator);
     break;
     case '/':printf("%d%d%c = %d",x,y,operator);
-    break;
+    if (y != 0) {
+                printf("%d %c %d = %d\n", x, operator, y, x / y);
+            } else {
+                printf("Error! Division by zero.\n");
+            }
+            break;
     default:printf("Invalid");
     return 0;
 }
